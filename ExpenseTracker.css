@@ -1,0 +1,197 @@
+.full_body{
+    font-size: 18px;
+    height: 800px;
+    background-image: linear-gradient(to right top, #1b92ac,#00aeb2,#00c7a3,#6fdd83,#c1ec5f);
+}
+.body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+.title{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:30px;
+    padding: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin:100px;
+}
+.buttons{
+    outline:none;
+    border: none;
+    color:white;
+    background-color:rgb(233,60,60);
+    padding:10px 20px;
+    text-decoration: none;
+    font-size:18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 4px;
+}
+table{
+    background-color: rgba(0,0,0,0.164);
+    color: white;
+    border : 10px solid white;
+    margin-top:30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 4px;
+}
+td{
+    font-size: 15px;
+}
+.add-new-expense,.add-category{
+    margin-top: 10px;
+    background-color: rgb(175,224,41);
+    padding:10px;
+    border-radius: 4px;
+    border:1px solid grey;
+    display:none;
+}
+.add-new-expense span, .add-category span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    margin:5px 0px;
+}
+.form-input{
+    background-color: rgba(0,0,0,0.164);
+    padding: 8px 10px;
+    border-radius: 4px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:white;
+    border : 1px solid white;
+}
+.form-input:focus{
+    background-color: rgba(0,0,0,0.164);
+    border: 1px solid white;
+    outline: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.available-categories{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding:15px;
+    border-radius: 4px;
+    border:1px solid white;
+    background-color: rgba(0,0,0,0.164);
+    color:white;
+    font-size: 18px;
+}
+.available-categories > span{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 10px;
+    border-bottom:1px solid white ;
+}
+.sub-title{
+    color:white;
+    font-size: 23px;
+    margin-top:30px;
+}
+.some{
+    font-size: 15px;
+    padding:8px 10px;
+}
+@media (min-width:320px) and (max-width:480px){
+.title{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    font-size:25px;
+    padding: 20px;
+    margin-left: 15px;
+    width: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.full_body{
+    font-size: 17px;
+    height: 1020px;
+    width: 100%;
+}
+.container{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin:15px;
+}
+.buttons{
+    padding:10px 20px;
+    text-decoration: none;
+    font-size:18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+}
+.category{
+    margin-top: 50px;
+}
+.sub-title{
+    margin-bottom: 25px;
+}
+table{
+    background-color: rgba(0,0,0,0.164);
+    color: white;
+    border : 10px solid white;
+    margin-top:30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+}
+td{
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+}
+.add-new-expense,.add-category{
+    margin-top: 10px;
+    background-color: rgb(175,224,41);
+    padding:10px;
+    border-radius: 4px;
+    border:1px solid grey;
+    display:none;
+}
+.add-new-expense span, .add-category span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    margin:5px 0px;
+}
+.available-categories{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding:15px;
+    border-radius: 4px;
+    border:1px solid white;
+    background-color: rgba(0,0,0,0.164);
+    color:white;
+    font-size: 18px;
+}
+.available-categories > span{
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 10px;
+    border-bottom:1px solid white ;
+}
+.expense-table{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+}
